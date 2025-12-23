@@ -1,16 +1,28 @@
-# React + Vite
+# React
+В цьому проєкті ми познайомилися з React і зробили два компоненти з props 
+-------
+## Що таке React ?
+це відкрита бібліотека JavaScript, розроблена Facebook для створення інтерфейсів користувача. Вона дозволяє нам розробляти веб-додатки, які швидко реагують на взаємодії користувачів, за допомогою компонентного підходу.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Ініціалізація проєкту 
+*Створили новий React проект за допомогою Vite:*
+```
+npm create vite@latest my-react-app -- --template react
+```
+*Перейшли на каталог проєкту*
+```
+cd my-react-app
+```
+*Встановили залежності:*
 
-Currently, two official plugins are available:
+```
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+*Запуск проєкту*
+```
+npm run dev
+```
+## Посилання на Vercel
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://react-lesson-38-viktorias-projects-fab8fa32.vercel.app/
